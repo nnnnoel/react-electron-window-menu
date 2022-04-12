@@ -5,7 +5,7 @@ import Submenu from './Submenu';
 import { IREWMenu } from '../@types';
 
 const platform =
-  typeof window !== 'undefined' ? window.navigator.platform : process.platform;
+  typeof window !== 'undefined' ? window.navigator.platform : 'darwin';
 const macosPlatforms = ['Macintosh', 'MacIntel', 'MacPPC', 'Mac68K', 'darwin'];
 const windowsPlatforms = ['Win32', 'Win64', 'Windows', 'WinCE', 'win32'];
 

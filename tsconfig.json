@@ -17,7 +17,6 @@
     "moduleResolution": "node",
     "baseUrl": "src",
     "typeRoots": [
-      "node_modules/@types",
       "@types"
     ],
     "forceConsistentCasingInFileNames": true,
@@ -44,7 +43,6 @@
     "noEmit": true
   },
   "exclude": [
-    "node_modules",
     "build",
     "scripts",
     "acceptance-tests",
